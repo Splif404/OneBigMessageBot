@@ -1,8 +1,8 @@
-# 1. reload service environment and restart
+1. reload service environment and restart
 sudo systemctl daemon-reload
 sudo systemctl restart obmbot
 
-# 2. watch logs
+2. watch logs
 journalctl -u obmbot -f
 
 
